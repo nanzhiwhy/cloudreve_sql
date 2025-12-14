@@ -8,11 +8,13 @@
 - mysql新建数据库
 - Navicat Premium作为辅助导入远程数据库
 - 运行python sql.py按照操作下一步就行了
+```bash
 127.0.0.1
 3306
 root
 密码
 数据库名
+```
 然后导出完成后使用Navicat Premium数据传输或者转储sql（结构+目录）
 链接远程数据库
 导入你转储的数据库文件 等待执行完就可以无损的把数据转到mysql
