@@ -1,8 +1,13 @@
 # SQLite 到 MySQL 数据库转换工具
 # 注意：工具转换后发现bug（用户组容量更改不了）
 # 解决办法：打开你的数据库管理工具设计表，或者宝塔的数据库管理工具
-# 表名：groups，修改字段（name类型修改为varchar(255)排序规则：utf8mb4_bin）（max_storage类型修改为bigint(20)）（speed_limit类型修改为bigint(20)）20代表长度，按照这个修改后即可完成所有数据库迁移工作
-
+```bash
+- 表名：groups，
+- 修改字段（name类型修改为varchar(255)排序规则：utf8mb4_bin）
+-（max_storage类型修改为bigint(20)）
+-（speed_limit类型修改为bigint(20)）
+20代表长度，按照这个修改后即可完成所有数据库迁移工作
+```
 本项目提供将 SQLite 数据库（特别是 Cloudreve 数据库）转换为 MySQL 数据库的工具和脚本。
 以及实现多个网站无损装换   建议本地操作再导入
 本地自行搭建mysql+Navicat Premium （速度快）
