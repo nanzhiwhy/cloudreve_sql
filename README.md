@@ -5,9 +5,9 @@
 本地自行搭建mysql+Navicat Premium （速度快）
 远程也可以但是速度很慢（远程记得把数据库权限设置为所有人）
 ## 本地操作
--mysql新建数据库
--Navicat Premium作为辅助导入远程数据库
-运行python sql.py按照操作下一步就行了
+- mysql新建数据库
+- Navicat Premium作为辅助导入远程数据库
+- 运行python sql.py按照操作下一步就行了
 127.0.0.1
 3306
 root
